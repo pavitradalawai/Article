@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+	 <title>Pseudo-element</title>
+	 <style type="text/css">
+	 h1{
+	 text-align:center;
+	 text-decoration:overline;
+	 text-transform:lowercase;
+	 color:red;
+	 text-shadow:4px 5px 3px blue;
+	 background-color:blue;
+	 letter-spacing:10px;
+	 }
+	 div{
+	 text-indent6cm;
+	 text-decoration:underline;
+	 text-transform:uppercase;
+	 color:black;
+	 background-color:pink;
+	 letter-spacing:5px;
+	 word-spacing:2px;
+	 font-family:cursive,monospace,serif;
+	 font-style:italic;
+	 white-space:8px;
+	 font-weight:1000 bold;
+	 font-size:20px;
+	 }
+	 div{
+	 text-indent5cm;
+	 text-decoration:overline;
+	 text-transform:lowercase;
+	 color:gold;
+	 background-color:aqua;
+	 letter-spacing:8px;
+	 word-spacing:6px;
+	 font-family:collapse-collapse;
+	 font-style:italic;
+	 white-space:8px;
+	 font-weight:1000 bold;
+	 font-size:20px;
+	 }
+	 div::selection{
+	 background-color:aqua;
+	 color:aqua;
+	 }
+	 div::first-line{
+	 font-size:30px;
+	 color:purple;
+	 }
+	 div::first-letter{
+	 font-size:50px;
+	 color:blue;
+	 }
+	 h2::before{
+	 content:"xworkz";
+	 color:red;
+	 
+	 h4::after{
+	 color:blue;
+	 content:"shree";
+	 }
+	 h3::before{
+	 content:url("https://raw.githubusercontent.com/xworkzodc/Gallery/master/images/56.jpeg")
+	 }
+	 h6::after{
+	 content:url("https://img.etimg.com/photo/msid-56476144,quality-100/.jpg")
+	 }
+	 h5::before{
+	 color:blue;
+	 content:"concepts";
+	}
+	 
+	 
+</style>
+
+<body>
+<h1>Xworkz</h1>
+<div>Enterprise Application Expertise Team
+We are professionals from IT industry, having vast experience in development and training of JAVA and various UI related technologies.
+We have been training and placing students over a decade now in various training institutes, we are the pioneers who introduced different training models which not only focus on theory but on practical implementations.
+Our training methodologies include best industry standards and practices, which suits freshers(zero-experience) to all(leads).
+We focus on providing quality training on cutting edge technologies that are used to build softwares in the current world.
+Well skilled industry trainers, with development knowledge to bridge the gap between learning and development.
+
+</div>
+ <h2>it's best training center</h2>
+<h3>gives software knowldeges</h3>
+<h4>about personal caring</h4>
+<h6>personal career</h6>
+</body>
+</html>
